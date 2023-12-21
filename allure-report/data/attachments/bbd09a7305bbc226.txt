@@ -1,0 +1,950 @@
+--------- beginning of main
+12-20 16:16:11.183 16392 16494 I PatrolServer: PatrolJUnitRunner.runDartTest(temp_test RA_01: Add new rate alert): Requested execution
+12-20 16:16:11.183 16392 16494 I PatrolServer: PatrolAppServiceClient.runDartTest(temp_test RA_01: Add new rate alert)
+12-20 16:16:11.213 16392 16517 I flutter : PatrolAppService.runDartTest(temp_test RA_01: Add new rate alert) called
+12-20 16:16:11.213 16392 16517 I flutter : PatrolAppService: requested execution of test "temp_test RA_01: Add new rate alert"
+12-20 16:16:11.213 16392 16517 I flutter : Patrol (native): configure() started
+12-20 16:16:11.221   368 16562 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:11.232 16392 16545 I PatrolServer: POST /configure started
+12-20 16:16:11.233 16392 16545 I PatrolServer: Timeout: 10000 ms
+12-20 16:16:11.233 16392 16545 I PatrolServer: Android UiAutomator configuration:
+12-20 16:16:11.233 16392 16545 I PatrolServer: 	waitForSelectorTimeout: 10000 ms
+12-20 16:16:11.233 16392 16545 I PatrolServer: 	waitForIdleTimeout: 5000 ms
+12-20 16:16:11.233 16392 16545 I PatrolServer: 	keyInjectionDelay: 50 ms
+12-20 16:16:11.233 16392 16545 I PatrolServer: 	actionAcknowledgmentTimeout: 3000 ms
+12-20 16:16:11.233 16392 16545 I PatrolServer: 	scrollAcknowledgmentTimeout: 200 ms
+12-20 16:16:11.233 16392 16545 I PatrolServer: 	toolType: 1
+12-20 16:16:11.233 16392 16545 I PatrolServer: 	uiAutomationFlags: 1
+12-20 16:16:11.233 16392 16545 I PatrolServer: POST /configure took 1 ms
+12-20 16:16:11.235 16392 16517 I flutter : Patrol (native): configure() succeeded
+12-20 16:16:11.266 16338 16384 W DynamiteModule: Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+12-20 16:16:11.275   989  1025 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+12-20 16:16:11.283 16338 16384 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+12-20 16:16:11.342 16338 16384 D nativeloader: Configuring classloader-namespace for other apk /system/framework/com.android.media.remotedisplay.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/arm64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+12-20 16:16:11.350 16338 16384 D nativeloader: Configuring classloader-namespace for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=33, uses_libraries=ALL, library_path=/product/priv-app/PrebuiltGmsCore/lib/arm64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+12-20 16:16:11.356 16392 16392 E SurfaceSyncer: Failed to find sync for id=0
+12-20 16:16:11.356 16338 16384 D nativeloader: Configuring vendor-classloader-namespace for unbundled product apk /product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk. target_sdk_version=33, uses_libraries=, library_path=/product/priv-app/PrebuiltGmsCore/lib/arm64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/arm64-v8a:/product/lib64:/system/product/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+12-20 16:16:11.388 16392 16498 W Parcel  : Expecting binder but got null!
+12-20 16:16:11.407 16338 16384 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 295 native methods...
+12-20 16:16:11.410   576   595 W ziparchive: Unable to open '/data/app/~~YFLYFbpGsp5I6sFNaSudnA==/ai.vanillatech.mmp.uat-svas9410-KuznUVO_T7gHA==/base.dm': No such file or directory
+12-20 16:16:11.424   576   595 I ActivityTaskManager: Displayed ai.vanillatech.mmp.uat/com.vanillatech.mmp.MainActivity: +2s328ms
+12-20 16:16:11.441 16338 16384 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+12-20 16:16:11.448   765  1001 D EGL_emulation: app_time_stats: avg=167.46ms min=9.33ms max=1386.20ms count=9
+--------- beginning of system
+12-20 16:16:11.449   576   761 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10186; state: ENABLED
+12-20 16:16:11.469  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220 
+12-20 16:16:11.478  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+12-20 16:16:11.479  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ai.vanillatech.mmp.uat fieldId=-1 fieldName=null extras=null}, false)
+12-20 16:16:11.479  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+12-20 16:16:11.487   368 16567 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:11.506   368 16568 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:11.506   368 16568 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007564135350
+12-20 16:16:11.506   368 16568 I resolv  : doQuery: rcode=0, ancount=0, return value=145
+12-20 16:16:11.506   368 16569 I resolv  : res_nmkquery: (QUERY, IN, A)
+12-20 16:16:11.506   368 16569 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007544135150
+12-20 16:16:11.506   368 16569 I resolv  : doQuery: rcode=0, ancount=1, return value=68
+12-20 16:16:11.507   219   219 I lowmemorykiller: Kill 'com.google.android.calendar' (14972), uid 10135, oom_score_adj 975 to free 53424kB rss, 0kB swap; reason: low watermark is breached and thrashing (578%)
+12-20 16:16:11.510 16392 16490 D TrafficStats: tagSocket(169) with statsTag=0xffffffff, statsUid=-1
+12-20 16:16:11.511   576   677 I ActivityManager: Process com.google.android.calendar (pid 14972) has died: cch+75 CEM 
+12-20 16:16:11.511   576   761 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(uid/pid:10135/14972, [NetworkRequest [ REQUEST id=1701, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10135 RequestorUid: 10135 RequestorPkg: com.google.android.calendar UnderlyingNetworks: Null] ]], android.os.BinderProxy@2f7f1bf)
+12-20 16:16:11.511   576   700 D ConnectivityService: releasing NetworkRequest [ REQUEST id=1701, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10135 RequestorUid: 10135 RequestorPkg: com.google.android.calendar UnderlyingNetworks: Null] ] (release request)
+12-20 16:16:11.512   370   370 I Zygote  : Process 14972 exited due to signal 9 (Killed)
+12-20 16:16:11.517   576   608 I libprocessgroup: Successfully killed process cgroup uid 10135 pid 14972 in 0ms
+12-20 16:16:11.526   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd3518b0
+12-20 16:16:11.526   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd351df0
+12-20 16:16:11.700   765  1001 D EGL_emulation: app_time_stats: avg=26.60ms min=8.61ms max=535.36ms count=56
+12-20 16:16:11.729   576   677 D CoreBackPreview: Window{473b078 u0 Splash Screen ai.vanillatech.mmp.uat EXITING}: Setting back callback null
+12-20 16:16:11.734   576   901 W InputManager-JNI: Input channel object '473b078 Splash Screen ai.vanillatech.mmp.uat (client)' was disposed without first being removed with the input manager!
+12-20 16:16:11.827   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:11.876   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd352690
+12-20 16:16:11.877   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd350530
+12-20 16:16:11.877   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd352030
+12-20 16:16:11.877   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd352030
+12-20 16:16:11.983 16392 16517 I flutter : Network log [33m[Request] ->[0m
+12-20 16:16:11.988 16392 16517 I flutter : Network log [33mUri: https://mmpv2vuat.digitalmta.com/banner?banner_type=Splash%20Screen[0m
+12-20 16:16:11.988 16392 16517 I flutter : Network log [33mMethod: GET[0m
+12-20 16:16:11.988 16392 16517 I flutter : Network log [33mResponse Type: ResponseType.json[0m
+12-20 16:16:11.989 16392 16517 I flutter : Network log [33mFollow Redirects: true[0m
+12-20 16:16:11.992 16392 16517 I flutter : Network log [33mConnection Timeout: 0:01:00.000000[0m
+12-20 16:16:11.992 16392 16517 I flutter : Network log [33mSend Timeout: 0:01:00.000000[0m
+12-20 16:16:11.992 16392 16517 I flutter : Network log [33mReceive Timeout: 0:01:00.000000[0m
+12-20 16:16:11.993 16392 16517 I flutter : Network log [33mReceive Data When Status Error: true[0m
+12-20 16:16:11.995 16392 16517 I flutter : Network log [33mExtra: {}[0m
+12-20 16:16:11.996 16392 16517 I flutter : Network log [33mHeaders:[0m
+12-20 16:16:11.998 16392 16517 I flutter : Network log [33m Request Body:
+12-20 16:16:11.998 16392 16517 I flutter : null[0m
+12-20 16:16:11.998 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:12.049   368 16571 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:12.051   368 16572 I resolv  : res_nmkquery: (QUERY, IN, A)
+12-20 16:16:12.051   368 16572 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+12-20 16:16:12.054   368 16573 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:12.054   368 16574 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:12.055   368 16574 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+12-20 16:16:12.199   368 16574 I resolv  : res_nsend: used send_dg 188 terrno: 0
+12-20 16:16:12.200   368 16574 I resolv  : doQuery: rcode=0, ancount=1, return value=188
+12-20 16:16:12.200   368 16578 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:12.201   368 16579 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:12.201   368 16579 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007564136c10
+12-20 16:16:12.201   368 16579 I resolv  : doQuery: rcode=0, ancount=1, return value=188
+12-20 16:16:12.288   989 15984 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.stats.PlatformStatsCollectorService started execution. cause:1 exec_start_elapsed_seconds: 34799 [CONTEXT service_id=218 ]
+12-20 16:16:12.306   989 15948 I NetworkScheduler.Stats: Task com.google.android.gms/com.google.android.gms.stats.PlatformStatsCollectorService finished executing. cause:1 result: 1 elapsed_millis: 136 uptime_millis: 136 exec_start_elapsed_seconds: 34799 [CONTEXT service_id=218 ]
+12-20 16:16:12.336   368 16572 I resolv  : res_nsend: used send_dg 138 terrno: 0
+12-20 16:16:12.337   368 16572 I resolv  : doQuery: rcode=0, ancount=3, return value=138
+12-20 16:16:12.711   765  1001 D EGL_emulation: app_time_stats: avg=16.97ms min=4.31ms max=32.98ms count=59
+12-20 16:16:12.733 16392 16517 I flutter : Network log [32m[Response] ->[0m
+12-20 16:16:12.733 16392 16517 I flutter : Network log [32mUri: https://mmpv2vuat.digitalmta.com/banner?banner_type=Splash%20Screen[0m
+12-20 16:16:12.733 16392 16517 I flutter : Network log [32mRequest Method: GET[0m
+12-20 16:16:12.734 16392 16517 I flutter : Network log [32mStatus Code: 200[0m
+12-20 16:16:12.734 16392 16517 I flutter : Network log [32mHeaders:[0m
+12-20 16:16:12.735 16392 16517 I flutter : Network log [32m	connection: keep-alive[0m
+12-20 16:16:12.735 16392 16517 I flutter : Network log [32m	content-type: application/json[0m
+12-20 16:16:12.735 16392 16517 I flutter : Network log [32m	date: Wed, 20 Dec 2023 10:31:14 GMT[0m
+12-20 16:16:12.735 16392 16517 I flutter : Network log [32m	server: uvicorn[0m
+12-20 16:16:12.735 16392 16517 I flutter : Network log [32m	content-length: 1003[0m
+12-20 16:16:12.738 16392 16517 I flutter : Network log [32mResponse Body:
+12-20 16:16:12.738 16392 16517 I flutter : {
+12-20 16:16:12.738 16392 16517 I flutter :   "pagination": {
+12-20 16:16:12.738 16392 16517 I flutter :     "count": 2,
+12-20 16:16:12.738 16392 16517 I flutter :     "page": 1,
+12-20 16:16:12.738 16392 16517 I flutter :     "pages": 1,
+12-20 16:16:12.738 16392 16517 I flutter :     "size": 20
+12-20 16:16:12.738 16392 16517 I flutter :   },
+12-20 16:16:12.738 16392 16517 I flutter :   "results": [
+12-20 16:16:12.739 16392 16517 I flutter :     {
+12-20 16:16:12.739 16392 16517 I flutter :       "title": "Exchange Currency",
+12-20 16:16:12.739 16392 16517 I flutter :       "image": "https://img.freepik.com/premium-vector/fintech-data-security-concept-app-financial-banking-digital-safety-privacy-technology-3d-icon-padlock-phone-money-card_22052-4064.jpg?w=826",
+12-20 16:16:12.739 16392 16517 I flutter :       "type": "Splash Screen",
+12-20 16:16:12.739 16392 16517 I flutter :       "start_date": "2023-09-05",
+12-20 16:16:12.739 16392 16517 I flutter :       "start_time": "03:44:21.236000",
+12-20 16:16:12.739 16392 16517 I flutter :       "description": "<p>20 currencies at your prefered rates for both your overseas online purchases and trip-before, during and after</p>",
+12-20 16:16:12.739 16392 16517 I flutter :       "call_for_action": "string",
+12-20 16:16:12.739 16392 16517 I flutter :       "url": "string",
+12-20 16:16:12.739 16392 16517 I flutter :       "active": true,
+12-20 16:16:12.739 16392 16517 I flutter :       "numeric_code": null,
+12-20 16:16:12.739 16392 16517 I flutter :       "id": 12
+12-20 16:16:12.739 16392 16517 I flutter :     },
+12-20 16:16:12.739 16392 16517 I flutter :     {
+12-20 16:16:12.739 16392 16517 I flutter :       "title": "Signup online",
+12-20 16:16:12.739 16392 16517 I flutter :       "image": "https://d1t0u2ql2wp61b.cloudfront.net/money-transfer-creative-advertising-banner-vector-2B7414A_1694686872925.jpg",
+12-20 16:16:12.739 16392 16517 I flutter :       "type": "Splash Screen",
+12-20 16:16:12.739 16392 16517 I flutter :       "start_date": "2023-09-05",
+12-20 16:16:12.739 16392 16517 I flutter :       "start_time": "03:44:21.236000",
+12-20 16:16:12.739 16392 16517 I flutter :       "description": "You are about to start a whole new digital experience with your finances",
+12-20 16:16:12.739 16392 16517 I flutter :       "call_for_action": "string",
+12-20 16:16:12.739 16392 16517 I flutter :       "url": "https://www.google.com",
+12-20 16:16:12.739 16392 16517 I flutter :       "active": true,
+12-20 16:16:12.739 16392 16517 I flutter :       "numeric_code": null,
+12-20 16:16:12.739 16392 16517 I flutter :       "id": 13
+12-20 16:16:12.739 16392 16517 I flutter :     }
+12-20 16:16:12.739 16392 16517 I flutter :   ]
+12-20 16:16:12.739 16392 16517 I flutter : }[0m
+12-20 16:16:12.739 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:12.951   368 16583 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:12.952   368 16584 I resolv  : res_nmkquery: (QUERY, IN, A)
+12-20 16:16:12.952   368 16584 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+12-20 16:16:12.973   368 16586 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:12.976   368 16587 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:12.976   368 16587 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+12-20 16:16:13.063 16392 16518 D EGL_emulation: app_time_stats: avg=192.18ms min=92.96ms max=687.58ms count=9
+12-20 16:16:13.320   368 16584 I resolv  : res_nsend: used send_dg 135 terrno: 0
+12-20 16:16:13.326   368 16584 I resolv  : doQuery: rcode=0, ancount=4, return value=135
+12-20 16:16:13.371   368 16587 I resolv  : res_nsend: used send_dg 159 terrno: 0
+12-20 16:16:13.371   368 16587 I resolv  : doQuery: rcode=0, ancount=4, return value=159
+12-20 16:16:14.872   576   576 W NotificationHistory: Attempted to add notif for locked/gone/disabled user 0
+12-20 16:16:14.886  1570  1802 W AiAiEcho: SmartspaceNotificationPredictor no parser can handle this notification or notification is invalid
+12-20 16:16:14.913   469   511 D NuPlayerDriver: NuPlayerDriver(0xb4000071814ef530) created, clientPid(765)
+12-20 16:16:14.918   221   221 I hwservicemanager: getTransport: Cannot find entry android.hardware.media.omx@1.0::IOmx/default in either framework or device VINTF manifest.
+12-20 16:16:14.918   469   511 D MediaPlayerService: OMX service is not available
+12-20 16:16:14.951   469 16592 D GenericSource: FileSource remote
+12-20 16:16:14.964   765  5651 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_multi_configs GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+12-20 16:16:14.964   765  5651 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+12-20 16:16:14.965   765  5651 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+12-20 16:16:14.966   765  5651 D EGL_emulation: eglCreateContext: 0xb400007caf847ed0: maj 3 min 0 rcv 3
+12-20 16:16:14.967   765  5651 D EGL_emulation: eglMakeCurrent: 0xb400007caf847ed0: ver 3 0 (tinfo 0x7ecb5b4200) (first time)
+12-20 16:16:14.988   576   755 I MediaFocusControl: requestAudioFocus() from uid/pid 10155/765 AA=USAGE_NOTIFICATION/CONTENT_TYPE_SONIFICATION clientId=android.media.AudioManager@4d60b1b callingPack=com.android.systemui req=3 flags=0x0 sdk=33
+12-20 16:16:14.988   576   755 I AudioService.FadeOutManager: unfadeOutUid() uid:10155
+12-20 16:16:15.023 16392 16594 D ProfileInstaller: Installing profile for ai.vanillatech.mmp.uat
+12-20 16:16:15.038   765  1001 D EGL_emulation: app_time_stats: avg=398.88ms min=15.27ms max=3458.98ms count=9
+12-20 16:16:15.496   469 16591 I GenericSource: start
+12-20 16:16:15.497   765   765 D MediaRouter: onRestoreRoute() : route=RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-20 16:16:15.497   765   765 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+12-20 16:16:15.507   469 16599 D CCodec  : allocate(c2.android.vorbis.decoder)
+12-20 16:16:15.512   469 16599 I CCodec  : setting up 'default' as default (vendor) store
+12-20 16:16:15.521   481   481 V C2Store : in init
+12-20 16:16:15.521   481   481 V C2Store : loading dll
+12-20 16:16:15.531   469 16599 I CCodec  : Created component [c2.android.vorbis.decoder]
+12-20 16:16:15.532   469 16599 D CCodecConfig: read media type: audio/vorbis
+12-20 16:16:15.533   469 16599 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+12-20 16:16:15.533   469 16599 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+12-20 16:16:15.533   469 16599 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+12-20 16:16:15.533   469 16599 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+12-20 16:16:15.533   469 16599 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+12-20 16:16:15.534   469 16599 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+12-20 16:16:15.534   469 16599 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+12-20 16:16:15.535   469 16599 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+12-20 16:16:15.536   469 16599 D CCodecConfig: c2 config diff is Dict {
+12-20 16:16:15.536   469 16599 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+12-20 16:16:15.536   469 16599 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+12-20 16:16:15.536   469 16599 D CCodecConfig:   c2::u32 input.delay.value = 0
+12-20 16:16:15.536   469 16599 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+12-20 16:16:15.536   469 16599 D CCodecConfig:   string output.media-type.value = "audio/raw"
+12-20 16:16:15.536   469 16599 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+12-20 16:16:15.536   469 16599 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+12-20 16:16:15.536   469 16599 D CCodecConfig: }
+12-20 16:16:15.536   469 16599 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+12-20 16:16:15.536   469 16599 D CCodecConfig: no c2 equivalents for durationUs
+12-20 16:16:15.536   469 16599 D CCodecConfig: no c2 equivalents for csd-1
+12-20 16:16:15.536   469 16599 D CCodecConfig: no c2 equivalents for flags
+12-20 16:16:15.536   469 16599 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 70000
+12-20 16:16:15.537   469 16599 W Codec2Client: query -- param skipped: index = 1107298332.
+12-20 16:16:15.537   469 16599 D CCodec  : encoding statistics level = 0
+12-20 16:16:15.537   469 16599 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+12-20 16:16:15.537   469 16599 D CCodec  :   int32_t bitrate = 70000
+12-20 16:16:15.537   469 16599 D CCodec  :   int32_t channel-count = 1
+12-20 16:16:15.537   469 16599 D CCodec  :   int32_t max-input-size = 32768
+12-20 16:16:15.537   469 16599 D CCodec  :   string mime = "audio/vorbis"
+12-20 16:16:15.537   469 16599 D CCodec  :   int32_t sample-rate = 48000
+12-20 16:16:15.537   469 16599 D CCodec  : }
+12-20 16:16:15.537   469 16599 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+12-20 16:16:15.537   469 16599 D CCodec  :   int32_t channel-count = 1
+12-20 16:16:15.537   469 16599 D CCodec  :   string mime = "audio/raw"
+12-20 16:16:15.537   469 16599 D CCodec  :   int32_t sample-rate = 48000
+12-20 16:16:15.537   469 16599 D CCodec  :   int32_t channel-mask = 1
+12-20 16:16:15.537   469 16599 D CCodec  :   int32_t android._config-pcm-encoding = 2
+12-20 16:16:15.537   469 16599 D CCodec  : }
+12-20 16:16:15.537   469 16599 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+12-20 16:16:15.537   469 16599 I MediaCodec: MediaCodec will operate in async mode
+12-20 16:16:15.537   469 16598 D MediaCodec: keep callback message for reclaim
+12-20 16:16:15.537   469 16599 W Codec2Client: query -- param skipped: index = 1342179345.
+12-20 16:16:15.537   469 16599 W Codec2Client: query -- param skipped: index = 2415921170.
+12-20 16:16:15.538   469 16599 D CCodecBufferChannel: [c2.android.vorbis.decoder#69] Created input block pool with allocatorID 16 => poolID 85 - OK (0)
+12-20 16:16:15.539   481   839 D BufferPoolAccessor2.0: bufferpool2 0xb400007881e64be8 : 0(0 size) total buffers - 0(0 size) used buffers - 93/97 (recycle/alloc) - 5/96 (fetch/transfer)
+12-20 16:16:15.539   481   839 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb400007881e64be8 cached: 0/0M, 0/0% in use; allocs: 97, 96% recycled; transfers: 96, 95% unfetched
+12-20 16:16:15.540   469  2093 D BufferPoolAccessor2.0: bufferpool2 0xb4000071a14e72e8 : 0(0 size) total buffers - 0(0 size) used buffers - 94/102 (recycle/alloc) - 8/198 (fetch/transfer)
+12-20 16:16:15.540   469  2093 D BufferPoolAccessor2.0: Destruction - bufferpool2 0xb4000071a14e72e8 cached: 0/0M, 0/0% in use; allocs: 102, 92% recycled; transfers: 198, 96% unfetched
+12-20 16:16:15.541   469 16599 I CCodecBufferChannel: [c2.android.vorbis.decoder#69] Created output block pool with allocatorID 16 => poolID 94 - OK
+12-20 16:16:15.541   469 16599 D CCodecBufferChannel: [c2.android.vorbis.decoder#69] Configured output block pool ids 94 => OK
+12-20 16:16:15.542   481 16600 D SimpleC2Component: Using output block pool with poolID 94 => got 94 - 0
+12-20 16:16:15.556 20028 20048 D AudioFlinger: Client defaulted notificationFrames to 12144 for frameCount 24288
+12-20 16:16:15.557 20028 20048 D AF::TrackHandle: OpPlayAudio: track:115 usage:5 not muted
+12-20 16:16:15.566   469 16597 D AudioTrack: getTimestamp_l(75): device stall time corrected using current time 34803344967379
+12-20 16:16:15.656 20028 20051 D AudioFlinger: mixer(0xb4000072518429a0) throttle end: throttle time(36)
+12-20 16:16:16.161   760   760 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+12-20 16:16:16.200 16392 16517 I flutter : Patrol (native): isPermissionDialogVisible() started
+12-20 16:16:16.202 16392 16517 I flutter : location permission LocationPermission.denied
+12-20 16:16:16.212 16392 16481 I PatrolServer: POST /isPermissionDialogVisible started
+12-20 16:16:16.238 16392 16518 D EGL_emulation: app_time_stats: avg=3174.67ms min=3174.67ms max=3174.67ms count=1
+12-20 16:16:16.267   576   755 I ActivityTaskManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.google.android.permissioncontroller cmp=com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity (has extras)} from uid 10186
+12-20 16:16:16.277   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd352f30
+12-20 16:16:16.278  1570  1810 I AiAiEcho: Settings cha with uri: content://settings/secure/accessibility_enabled
+12-20 16:16:16.282  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:16.283  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:16.284  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:16.284  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:16.284  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:16.284  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:16.286  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:16.286  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:16.286  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:16.287  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:16.287  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:16.287  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:16.287  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:16.289  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:16.290  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:16.303  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:16.305  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:16.306  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:16.318   576   576 D BatterySaverPolicy: accessibility changed to false, updating policy.
+12-20 16:16:16.322  1570  2174 I AiAiEcho: Settings cha with uri: content://settings/secure/accessibility_enabled
+12-20 16:16:16.322  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:16.322  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:16.322  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:16.322  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:16.323  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:16.323  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:16.323  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:16.323  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:16.323  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:16.323  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:16.324  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:16.324  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:16.324  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:16.324  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:16.324  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:16.325   576   576 D BatterySaverPolicy: accessibility changed to true, updating policy.
+12-20 16:16:16.326  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:16.326  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:16.326  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:16.328 28212 28256 I A       : NGA disabled due to not being eligible.
+12-20 16:16:16.328   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:16.328   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:16.328   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:16.328   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:16.328   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:16.329 16392 16603 V UiAutomation: Init UiAutomation@dd78c47[id=234, flags=1]
+12-20 16:16:16.335 16392 16470 D SessionLifecycleClient: Sending lifecycle 2 to service
+12-20 16:16:16.335 16392 16392 D LifecycleMonitor: Lifecycle status change: com.vanillatech.mmp.MainActivity@7c37af3 in: PAUSED
+12-20 16:16:16.336 16392 16542 D SessionLifecycleService: Activity backgrounding at 34804113
+12-20 16:16:16.337   576   755 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (32270820)
+12-20 16:16:16.382   219   219 I lowmemorykiller: Kill 'com.android.settings' (15400), uid 1000, oom_score_adj 975 to free 47300kB rss, 0kB swap; reason: low watermark is breached and thrashing (217%)
+12-20 16:16:16.387   576   901 I ActivityManager: Process com.android.settings (pid 15400) has died: cch+75 CEM 
+12-20 16:16:16.388   370   370 I Zygote  : Process 15400 exited due to signal 9 (Killed)
+12-20 16:16:16.388   576   608 I libprocessgroup: Successfully killed process cgroup uid 1000 pid 15400 in 1ms
+12-20 16:16:16.408 28212 28256 I A       : NGA disabled due to not being eligible.
+12-20 16:16:16.432  5923  5923 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+12-20 16:16:16.461   576   677 D CoreBackPreview: Window{ccd6a9b u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2540e11, mPriority=0}
+12-20 16:16:16.506   576   595 I ActivityTaskManager: Displayed com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity: +220ms
+12-20 16:16:16.595   765  1001 D EGL_emulation: app_time_stats: avg=215.61ms min=14.20ms max=3347.70ms count=18
+12-20 16:16:16.622   469 16597 W NuPlayerRenderer: AudioSink stuck. ARE YOU CONNECTED TO AUDIO OUT? Switching to system clock.
+12-20 16:16:16.730   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd34ef10
+12-20 16:16:16.880   469 16599 D CCodecBufferChannel: [c2.android.vorbis.decoder#69] buffers after EOS ignored (0 us)
+12-20 16:16:16.880   469 16599 D CCodecBufferChannel: [c2.android.vorbis.decoder#69] buffers after EOS ignored (0 us)
+12-20 16:16:16.880   469 16599 D CCodecBufferChannel: [c2.android.vorbis.decoder#69] buffers after EOS ignored (0 us)
+12-20 16:16:16.880   469 16597 D AudioTrack: stop(75): called with 82980 frames delivered
+12-20 16:16:16.943   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd353d70
+12-20 16:16:16.943   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd353d70
+12-20 16:16:17.148 16392 16481 I PatrolServer: POST /isPermissionDialogVisible took 935 ms
+12-20 16:16:17.171 16392 16517 I flutter : Patrol (native): isPermissionDialogVisible() succeeded
+12-20 16:16:17.171 16392 16517 I flutter : Patrol (native): grantPermissionWhenInUse() started
+12-20 16:16:17.177 16392 16543 I PatrolServer: POST /handlePermissionDialog started
+12-20 16:16:17.185 16392 16543 I QueryController: Matched selector: UiSelector[RESOURCE_ID=com.android.permissioncontroller:id/permission_allow_foreground_only_button] <<==>> [android.view.accessibility.AccessibilityNodeInfo@2e7f1; boundsInParent: Rect(0, 0 - 826, 140); boundsInScreen: Rect(127, 1258 - 953, 1398); packageName: com.google.android.permissioncontroller; className: android.widget.Button; text: While using the app; error: null; maxTextLength: -1; stateDescription: null; contentDescription: null; tooltipText: null; viewIdResName: com.android.permissioncontroller:id/permission_allow_foreground_only_button; uniqueId: null; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: true; actions: [AccessibilityAction: ACTION_FOCUS - null, AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_CLICK - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]; isTextSelectable: false]
+12-20 16:16:17.197 16392 16543 D InteractionController: clickAndSync(540, 1328)
+12-20 16:16:17.202  1570  1810 I AiAiEcho: Settings cha with uri: content://settings/secure/accessibility_enabled
+12-20 16:16:17.206  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:17.206  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:17.207  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:17.207  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:17.207  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:16:17.207  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:16:17.209  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:17.209  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:17.210  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:17.210  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:17.210  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:17.210  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:17.210  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:16:17.210  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:16:17.210  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:16:17.225  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:17.229  1082  1082 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1328.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34804975, downTime=34804975, deviceId=-1, source=0x1002, displayId=0, eventId=-488679131 }
+12-20 16:16:17.231  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:17.231  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:16:17.331  1082  1082 D TaplEvents: TIS / TouchInteractionService.onInputEvent: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1328.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=34805108, downTime=34804975, deviceId=-1, source=0x1002, displayId=0, eventId=-443379745 }
+12-20 16:16:17.342  5923  5923 V GrantPermissionsViewModel: Logged buttons presented and clicked permissionGroupName=android.permission-group.LOCATION uid=10186 selectedLocations=3 package=ai.vanillatech.mmp.uat presentedButtons=44 clickedButton=4 sessionId=-1221216286856731499 targetSdk=33
+12-20 16:16:17.353  5923  5923 V GrantPermissionsViewModel: Permission grant result requestId=-1221216286856731499 callingUid=10186 callingPackage=ai.vanillatech.mmp.uat permission=android.permission.ACCESS_FINE_LOCATION isImplicit=false result=4
+12-20 16:16:17.354  5923  5923 V GrantPermissionsViewModel: Permission grant result requestId=-1221216286856731499 callingUid=10186 callingPackage=ai.vanillatech.mmp.uat permission=android.permission.ACCESS_COARSE_LOCATION isImplicit=false result=4
+12-20 16:16:17.455 16392 16392 D CompatibilityChangeReporter: Compat change id reported: 78294732; UID 10186; state: ENABLED
+12-20 16:16:17.490 16392 16466 D SessionLifecycleClient: Sending lifecycle 1 to service
+12-20 16:16:17.491 16392 16542 D SessionLifecycleService: Activity foregrounding at 34805269.
+12-20 16:16:17.496 16392 16392 D LifecycleMonitor: Lifecycle status change: com.vanillatech.mmp.MainActivity@7c37af3 in: RESUMED
+12-20 16:16:17.519  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220 
+12-20 16:16:17.523  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+12-20 16:16:17.523  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=ai.vanillatech.mmp.uat fieldId=-1 fieldName=null extras=null}, false)
+12-20 16:16:17.524  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+12-20 16:16:17.550   576   761 D CoreBackPreview: Window{ccd6a9b u0 com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity}: Setting back callback null
+12-20 16:16:17.560   576   908 W InputManager-JNI: Input channel object 'ccd6a9b com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity (client)' was disposed without first being removed with the input manager!
+12-20 16:16:17.614   765  1001 D EGL_emulation: app_time_stats: avg=35.14ms min=6.73ms max=118.08ms count=29
+12-20 16:16:17.677   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd34eeb0
+12-20 16:16:17.678   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd352690
+12-20 16:16:17.711   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd34d8f0
+12-20 16:16:17.711   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd34f1b0
+12-20 16:16:17.711   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd34d8f0
+12-20 16:16:17.743   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd34ddd0
+12-20 16:16:17.743   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd352870
+12-20 16:16:17.743   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd34de90
+12-20 16:16:17.743   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd34de90
+12-20 16:16:17.760   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd3531d0
+12-20 16:16:18.151 16307 16307 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10073; state: ENABLED
+12-20 16:16:18.155 16307 16307 I ProvidersCache: Updating roots due to change on user 0at content://com.google.android.apps.docs.storage/root
+12-20 16:16:18.186 16307 16609 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+12-20 16:16:18.236 16307 16307 I ProvidersCache: Updating roots due to change on user 0at content://com.android.externalstorage.documents
+12-20 16:16:18.243 16307 16615 I ProvidersCache: Provider returned no roots. Possibly naughty: com.google.android.apps.docs.storage
+12-20 16:16:18.359   576   761 I MediaFocusControl: abandonAudioFocus() from uid/pid 10155/765 clientId=android.media.AudioManager@4d60b1b
+12-20 16:16:18.360   765 16589 V MediaPlayer: resetDrmState:  mDrmInfo=null mDrmProvisioningThread=null mPrepareDrmInProgress=false mActiveDrmScheme=false
+12-20 16:16:18.360   765 16589 V MediaPlayer: cleanDrmObj: mDrmObj=null mDrmSessionId=null
+12-20 16:16:18.360   469   511 D NuPlayerDriver: reset(0xb4000071814ef530) at state 6
+12-20 16:16:18.374   469 16599 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+12-20 16:16:18.374   481   819 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+12-20 16:16:18.375   481   819 I hw-BpHwBinder: onLastStrongRef automatically unlinking death recipients
+12-20 16:16:18.378   481   819 V C2Store : in ~ComponentModule
+12-20 16:16:18.378   481   819 V C2Store : unloading dll
+12-20 16:16:18.386   469 16591 D NuPlayerDriver: notifyResetComplete(0xb4000071814ef530)
+12-20 16:16:18.387   469   511 W AMessage: failed to post message as target looper for handler 0 is gone.
+12-20 16:16:18.627   765  1001 D EGL_emulation: app_time_stats: avg=32.67ms min=12.89ms max=83.72ms count=31
+--------- beginning of kernel
+12-20 16:16:19.233   389   389 W healthd : battery l=100 v=5000 t=25.0 h=2 st=4 c=900000 fc=3000000 cc=10 chg=
+12-20 16:16:19.500   765  1001 D EGL_emulation: app_time_stats: avg=343.23ms min=15.33ms max=4218.56ms count=13
+12-20 16:16:20.286   576   908 W AppOps  : Noting op not finished: uid 10118 pkg com.google.android.gms code 113 startTime of in progress event=1703067923478
+12-20 16:16:20.290   576   908 W AppOps  : Noting op not finished: uid 10118 pkg com.google.android.gms code 113 startTime of in progress event=1703067923478
+12-20 16:16:20.365 16392 16543 W InteractionController: runAndwaitForEvents timed out waiting for events
+12-20 16:16:20.366 16392 16543 I PatrolServer: POST /handlePermissionDialog took 3189 ms
+12-20 16:16:20.380 16392 16517 I flutter : Patrol (native): grantPermissionWhenInUse() succeeded
+12-20 16:16:20.411 16392 16434 W System  : A resource failed to call close. 
+12-20 16:16:20.541   469  5657 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+12-20 16:16:20.546   481   790 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+12-20 16:16:20.600 16392 16518 D EGL_emulation: app_time_stats: avg=1452.82ms min=11.45ms max=4320.11ms count=3
+12-20 16:16:20.673 16392 16517 I flutter : Network log [33m[Request] ->[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mUri: https://mmpv2vuat.digitalmta.com/user/login-initial-data[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mMethod: GET[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mResponse Type: ResponseType.json[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mFollow Redirects: true[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mConnection Timeout: 0:01:00.000000[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mSend Timeout: 0:01:00.000000[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mReceive Timeout: 0:01:00.000000[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mReceive Data When Status Error: true[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mExtra: {}[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33mHeaders:[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [33m Request Body:
+12-20 16:16:20.674 16392 16517 I flutter : null[0m
+12-20 16:16:20.674 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:20.686   368 16622 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:20.688   368 16623 I resolv  : res_nmkquery: (QUERY, IN, A)
+12-20 16:16:20.688   368 16623 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb40000755413e9f0
+12-20 16:16:20.689   368 16623 I resolv  : doQuery: rcode=0, ancount=3, return value=138
+12-20 16:16:20.691   368 16624 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:20.692   368 16625 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:20.692   368 16625 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007564136c10
+12-20 16:16:20.692   368 16625 I resolv  : doQuery: rcode=0, ancount=1, return value=188
+12-20 16:16:20.692   368 16626 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:20.693   368 16627 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:20.693   368 16627 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007564136c10
+12-20 16:16:20.693   368 16627 I resolv  : doQuery: rcode=0, ancount=1, return value=188
+12-20 16:16:20.893 16392 16498 D EGL_emulation: app_time_stats: avg=4752.67ms min=4468.76ms max=5036.59ms count=2
+12-20 16:16:20.997   765  1001 D EGL_emulation: app_time_stats: avg=394.83ms min=49.93ms max=1868.96ms count=6
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32m[Response] ->[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32mUri: https://mmpv2vuat.digitalmta.com/user/login-initial-data[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32mRequest Method: GET[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32mStatus Code: 200[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32mHeaders:[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32m	connection: keep-alive[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32m	content-type: application/json[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32m	date: Wed, 20 Dec 2023 10:31:22 GMT[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32m	server: uvicorn[0m
+12-20 16:16:21.039 16392 16517 I flutter : Network log [32m	content-length: 2560[0m
+12-20 16:16:21.040 16392 16517 I flutter : Network log [32mResponse Body:
+12-20 16:16:21.040 16392 16517 I flutter : {
+12-20 16:16:21.040 16392 16517 I flutter :   "countries": [
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "MALAYSIA",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "MY",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "MYS",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 80,
+12-20 16:16:21.040 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.040 16392 16517 I flutter :       "dialing_code": "60",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.040 16392 16517 I flutter :     },
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "AFGHANISTAN",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "AF",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "AFG",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 221,
+12-20 16:16:21.040 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.040 16392 16517 I flutter :       "dialing_code": "93",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.040 16392 16517 I flutter :     },
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "BANGLADESH",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "BD",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "BGD",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 34,
+12-20 16:16:21.040 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.040 16392 16517 I flutter :       "dialing_code": "880",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.040 16392 16517 I flutter :     },
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "BHUTAN",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "BT",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "BTN",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 230,
+12-20 16:16:21.040 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.040 16392 16517 I flutter :       "dialing_code": "975",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.040 16392 16517 I flutter :     },
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "CHINA",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "CN",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "CHN",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 123,
+12-20 16:16:21.040 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.040 16392 16517 I flutter :       "dialing_code": "86",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.040 16392 16517 I flutter :     },
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "INDIA",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "IN",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "IND",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 12,
+12-20 16:16:21.040 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.040 16392 16517 I flutter :       "dialing_code": "91",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.040 16392 16517 I flutter :     },
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "INDONESIA",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "ID",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "IDN",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 9,
+12-20 16:16:21.040 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.040 16392 16517 I flutter :       "dialing_code": "62",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.040 16392 16517 I flutter :     },
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "MYANMAR",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "MM",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "MMR",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 16,
+12-20 16:16:21.040 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.040 16392 16517 I flutter :       "dialing_code": "95",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.040 16392 16517 I flutter :     },
+12-20 16:16:21.040 16392 16517 I flutter :     {
+12-20 16:16:21.040 16392 16517 I flutter :       "name": "NEPAL",
+12-20 16:16:21.040 16392 16517 I flutter :       "code": "NP",
+12-20 16:16:21.040 16392 16517 I flutter :       "alpha3_code": "NPL",
+12-20 16:16:21.040 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.040 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.040 16392 16517 I flutter :       "id": 89,
+12-20 16:16:21.041 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.041 16392 16517 I flutter :       "dialing_code": "977",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.041 16392 16517 I flutter :     },
+12-20 16:16:21.041 16392 16517 I flutter :     {
+12-20 16:16:21.041 16392 16517 I flutter :       "name": "PAKISTAN",
+12-20 16:16:21.041 16392 16517 I flutter :       "code": "PK",
+12-20 16:16:21.041 16392 16517 I flutter :       "alpha3_code": "PAK",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.041 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.041 16392 16517 I flutter :       "id": 153,
+12-20 16:16:21.041 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.041 16392 16517 I flutter :       "dialing_code": "92",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.041 16392 16517 I flutter :     },
+12-20 16:16:21.041 16392 16517 I flutter :     {
+12-20 16:16:21.041 16392 16517 I flutter :       "name": "PHILIPPINES",
+12-20 16:16:21.041 16392 16517 I flutter :       "code": "PH",
+12-20 16:16:21.041 16392 16517 I flutter :       "alpha3_code": "PHL",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.041 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.041 16392 16517 I flutter :       "id": 152,
+12-20 16:16:21.041 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.041 16392 16517 I flutter :       "dialing_code": "63",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.041 16392 16517 I flutter :     },
+12-20 16:16:21.041 16392 16517 I flutter :     {
+12-20 16:16:21.041 16392 16517 I flutter :       "name": "SINGAPORE",
+12-20 16:16:21.041 16392 16517 I flutter :       "code": "SG",
+12-20 16:16:21.041 16392 16517 I flutter :       "alpha3_code": "SGP",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.041 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.041 16392 16517 I flutter :       "id": 119,
+12-20 16:16:21.041 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.041 16392 16517 I flutter :       "dialing_code": "65",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.041 16392 16517 I flutter :     },
+12-20 16:16:21.041 16392 16517 I flutter :     {
+12-20 16:16:21.041 16392 16517 I flutter :       "name": "SRI LANKA",
+12-20 16:16:21.041 16392 16517 I flutter :       "code": "LK",
+12-20 16:16:21.041 16392 16517 I flutter :       "alpha3_code": "LKA",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.041 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.041 16392 16517 I flutter :       "id": 138,
+12-20 16:16:21.041 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.041 16392 16517 I flutter :       "dialing_code": "94",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.041 16392 16517 I flutter :     },
+12-20 16:16:21.041 16392 16517 I flutter :     {
+12-20 16:16:21.041 16392 16517 I flutter :       "name": "THAILAND",
+12-20 16:16:21.041 16392 16517 I flutter :       "code": "TH",
+12-20 16:16:21.041 16392 16517 I flutter :       "alpha3_code": "THA",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.041 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.041 16392 16517 I flutter :       "id": 175,
+12-20 16:16:21.041 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.041 16392 16517 I flutter :       "dialing_code": "66",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.041 16392 16517 I flutter :     },
+12-20 16:16:21.041 16392 16517 I flutter :     {
+12-20 16:16:21.041 16392 16517 I flutter :       "name": "VIETNAM",
+12-20 16:16:21.041 16392 16517 I flutter :       "code": "VN",
+12-20 16:16:21.041 16392 16517 I flutter :       "alpha3_code": "VNM",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_high_risk": false,
+12-20 16:16:21.041 16392 16517 I flutter :       "secondary_number_enabled": true,
+12-20 16:16:21.041 16392 16517 I flutter :       "id": 166,
+12-20 16:16:21.041 16392 16517 I flutter :       "nationality": null,
+12-20 16:16:21.041 16392 16517 I flutter :       "dialing_code": "84",
+12-20 16:16:21.041 16392 16517 I flutter :       "is_active": true
+12-20 16:16:21.041 16392 16517 I flutter :     }
+12-20 16:16:21.041 16392 16517 I flutter :   ]
+12-20 16:16:21.041 16392 16517 I flutter : }[0m
+12-20 16:16:21.041 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:21.331  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3220 
+12-20 16:16:21.333 16392 16392 D InputMethodManager: showSoftInput() view=io.flutter.embedding.android.FlutterView{ffa11fa VFED..... .F....ID 0,0-1080,2100 #2 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+12-20 16:16:21.336  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 0, unlocked = true
+12-20 16:16:21.337  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1919 onStartInput(EditorInfo{inputType=0x2(Number) imeOptions=0x2000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=ai.vanillatech.mmp.uat fieldId=2 fieldName=null extras=null}, false)
+12-20 16:16:21.337  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+12-20 16:16:21.356  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():2023 onStartInputView(EditorInfo{inputType=0x2(Number) imeOptions=0x2000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=null label=null packageName=ai.vanillatech.mmp.uat fieldId=2 fieldName=null extras=null}, false)
+12-20 16:16:21.356  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2114 repeatCheckTimes = 2, unlocked = true
+12-20 16:16:21.367  1488  1529 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():117 Get device mode phone by ui mode:1 and smallestScreenWidthDp:432
+12-20 16:16:21.404 16392 16392 D InputMethodManager: showSoftInput() view=io.flutter.embedding.android.FlutterView{ffa11fa VFED..... .F...... 0,0-1080,2100 #2 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+12-20 16:16:21.416  1488  1488 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():168 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+12-20 16:16:21.418   240 16276 I keystore2: keystore2::watchdog: Watchdog thread idle -> terminating. Have a great day.
+12-20 16:16:21.424  1488  1488 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():44 leave 338 height for app when screen height:2040, header height:110 and isFullscreenMode:false, so the max keyboard body height is:1592
+12-20 16:16:21.425  1488  1488 W Keyboard: Keyboard.getKeyboardViewHelper():611 null helper is returned: keyboardDef=hyz{className=.latin.keyboard.LatinNumberKeyboard, id=#0x7f0b062a, initialStates=0, keyboardViewDefs=[hzr{direction=LOCALE, id=#0x7f0b013c, isScalable=false, layoutId=#0x7f0e03db, type=HEADER, touchable=true}, hzr{direction=null, id=#0x7f0b013c, isScalable=true, layoutId=#0x7f0e041e, type=BODY, touchable=true}], keyTextSizeRatio=1.0, persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e04a2, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=0}, type=FLOATING_CANDIDATES, helpersCreated=[hro@3f5e928, hro@9aea641, null], 
+12-20 16:16:21.426  1488  1488 W Keyboard: Keyboard.getKeyboardViewHelper():611 null helper is returned: keyboardDef=hyz{className=.latin.keyboard.LatinNumberKeyboard, id=#0x7f0b062a, initialStates=0, keyboardViewDefs=[hzr{direction=LOCALE, id=#0x7f0b013c, isScalable=false, layoutId=#0x7f0e03db, type=HEADER, touchable=true}, hzr{direction=null, id=#0x7f0b013c, isScalable=true, layoutId=#0x7f0e041e, type=BODY, touchable=true}], keyTextSizeRatio=1.0, persistentStates=0, persistentStatesPrefKey=null, popupBubbleLayoutId=#0x7f0e04a2, recentKeyLayoutId=0, recentKeyPopupLayoutId=0, recentKeyType=null, rememberRecentKey=NONE, sessionStates=0}, type=FLOATING_CANDIDATES, helpersCreated=[hro@3f5e928, hro@9aea641, null], 
+12-20 16:16:21.427  1488  1488 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():117 Get device mode phone by ui mode:1 and smallestScreenWidthDp:432
+12-20 16:16:21.427  1488  1488 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():117 Get device mode phone by ui mode:1 and smallestScreenWidthDp:432
+12-20 16:16:21.427  1488  1488 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():111 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+12-20 16:16:21.428  1488  1488 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():111 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+12-20 16:16:21.433  1488  1488 I CurrentMicStatusHolder: CurrentMicStatusHolder.onStartInputView():79 Current Mic status = {MicIconHidden-SettingOff,MicIconHidden-PasswordOrNumberOrDateInputType,}
+12-20 16:16:21.433  1488  1488 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():382 No private IME option set to start voice input.
+12-20 16:16:21.437 16392 16392 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+12-20 16:16:21.437 16392 16392 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+12-20 16:16:21.447 31924 31924 D BoundBrokerSvc: onBind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+12-20 16:16:21.447 31924 31924 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+12-20 16:16:21.495   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:21.503 16392 16392 D InsetsController: show(ime(), fromIme=true)
+12-20 16:16:21.517 16392 16392 D InsetsController: show(ime(), fromIme=true)
+12-20 16:16:21.600 31924 31924 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-20 16:16:21.600 31924 31924 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-20 16:16:21.602 31924 31924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-20 16:16:21.606 31924 31924 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-20 16:16:21.606 31924 31924 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-20 16:16:21.606 31924 31924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-20 16:16:21.608 16392 16518 D EGL_emulation: app_time_stats: avg=143.84ms min=39.22ms max=285.52ms count=7
+12-20 16:16:21.898 16392 16498 D EGL_emulation: app_time_stats: avg=37.46ms min=0.59ms max=507.71ms count=20
+12-20 16:16:22.011   765  1001 D EGL_emulation: app_time_stats: avg=7.87ms min=0.42ms max=40.21ms count=60
+12-20 16:16:22.102 16392 16517 I flutter : headerPost= {}
+12-20 16:16:22.108 16392 16517 I flutter : Network log [33m[Request] ->[0m
+12-20 16:16:22.108 16392 16517 I flutter : Network log [33mUri: https://mmpv2vuat.digitalmta.com/user/login[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mMethod: POST[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mResponse Type: ResponseType.json[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mFollow Redirects: true[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mConnection Timeout: 0:01:00.000000[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mSend Timeout: 0:01:00.000000[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mReceive Timeout: 0:01:00.000000[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mReceive Data When Status Error: true[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mExtra: {}[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33mHeaders:[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33m	content-type: application/json[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [33m[Json] Request Body:
+12-20 16:16:22.109 16392 16517 I flutter : {
+12-20 16:16:22.109 16392 16517 I flutter :   "phone_number": "603113113111"
+12-20 16:16:22.109 16392 16517 I flutter : }[0m
+12-20 16:16:22.109 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:22.120  1488  1488 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2266 
+12-20 16:16:22.126  1488  1488 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():159 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32m[Response] ->[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32mUri: https://mmpv2vuat.digitalmta.com/user/login[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32mRequest Method: POST[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32mStatus Code: 200[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32mHeaders:[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32m	connection: keep-alive[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32m	content-type: application/json[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32m	date: Wed, 20 Dec 2023 10:31:23 GMT[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32m	server: uvicorn[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32m	content-length: 45[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [32mResponse Body:
+12-20 16:16:22.380 16392 16517 I flutter : {
+12-20 16:16:22.380 16392 16517 I flutter :   "id": "2c2ce8c5-b1ac-4ee7-a2a0-be9b198d46d9"
+12-20 16:16:22.380 16392 16517 I flutter : }[0m
+12-20 16:16:22.380 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:22.675 16392 16518 D EGL_emulation: app_time_stats: avg=96.96ms min=19.41ms max=206.82ms count=11
+12-20 16:16:22.823   765  1001 D EGL_emulation: app_time_stats: avg=3322.82ms min=3322.82ms max=3322.82ms count=1
+12-20 16:16:23.044   418   514 W TransactionTracing: Could not find layer handle 0xb4000076cd350470
+12-20 16:16:23.225 31924 31924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+12-20 16:16:23.330   576   605 I UsageStatsService: User[0] Flushing usage stats to disk
+12-20 16:16:23.543   469  5657 D BufferPoolAccessor2.0: bufferpool2 0xb4000071a14e9ed8 : 0(0 size) total buffers - 0(0 size) used buffers - 96/104 (recycle/alloc) - 8/198 (fetch/transfer)
+12-20 16:16:23.543   469  5657 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+12-20 16:16:23.557   481   790 D BufferPoolAccessor2.0: bufferpool2 0xb400007881e642a8 : 0(0 size) total buffers - 0(0 size) used buffers - 93/97 (recycle/alloc) - 4/96 (fetch/transfer)
+12-20 16:16:23.557   481   790 D BufferPoolAccessor2.0: evictor expired: 1, evicted: 1
+12-20 16:16:23.728 16392 16518 D EGL_emulation: app_time_stats: avg=86.00ms min=2.60ms max=134.96ms count=12
+12-20 16:16:24.096   760   760 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+12-20 16:16:24.779 16392 16518 D EGL_emulation: app_time_stats: avg=69.99ms min=11.71ms max=118.16ms count=15
+12-20 16:16:25.829 16392 16518 D EGL_emulation: app_time_stats: avg=87.50ms min=14.16ms max=126.03ms count=12
+12-20 16:16:25.949   393   393 E android.hardware.power.stats@1.0-service-mock: Failed to getEnergyData
+12-20 16:16:26.545 16392 16517 I flutter : headerPost= {}
+12-20 16:16:26.547 16392 16517 I flutter : Network log [33m[Request] ->[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mUri: https://mmpv2vuat.digitalmta.com/user/2c2ce8c5-b1ac-4ee7-a2a0-be9b198d46d9/validate-otp[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mMethod: POST[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mResponse Type: ResponseType.json[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mFollow Redirects: true[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mConnection Timeout: 0:01:00.000000[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mSend Timeout: 0:01:00.000000[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mReceive Timeout: 0:01:00.000000[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mReceive Data When Status Error: true[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mExtra: {}[0m
+12-20 16:16:26.548 16392 16517 I flutter : Network log [33mHeaders:[0m
+12-20 16:16:26.549 16392 16517 I flutter : Network log [33m	content-type: application/json[0m
+12-20 16:16:26.549 16392 16517 I flutter : Network log [33m[Json] Request Body:
+12-20 16:16:26.549 16392 16517 I flutter : {
+12-20 16:16:26.549 16392 16517 I flutter :   "otp": "123456"
+12-20 16:16:26.549 16392 16517 I flutter : }[0m
+12-20 16:16:26.549 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:26.556   368 16628 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:26.558   368 16629 I resolv  : res_nmkquery: (QUERY, IN, A)
+12-20 16:16:26.558   368 16629 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb40000755413e9f0
+12-20 16:16:26.558   368 16629 I resolv  : doQuery: rcode=0, ancount=3, return value=138
+12-20 16:16:26.574   368 16630 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:26.574   368 16631 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:26.575   368 16631 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007564136c10
+12-20 16:16:26.575   368 16631 I resolv  : doQuery: rcode=0, ancount=1, return value=188
+12-20 16:16:26.575   368 16632 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:26.575   368 16633 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:26.575   368 16633 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007564136c10
+12-20 16:16:26.575   368 16633 I resolv  : doQuery: rcode=0, ancount=1, return value=188
+12-20 16:16:26.899 16392 16518 D EGL_emulation: app_time_stats: avg=71.27ms min=11.77ms max=122.35ms count=15
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32m[Response] ->[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32mUri: https://mmpv2vuat.digitalmta.com/user/2c2ce8c5-b1ac-4ee7-a2a0-be9b198d46d9/validate-otp[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32mRequest Method: POST[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32mStatus Code: 200[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32mHeaders:[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32m	connection: keep-alive[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32m	content-type: application/json[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32m	date: Wed, 20 Dec 2023 10:31:28 GMT[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32m	server: uvicorn[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32m	content-length: 434[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [32mResponse Body:
+12-20 16:16:26.987 16392 16517 I flutter : {
+12-20 16:16:26.987 16392 16517 I flutter :   "security_phrase": "p1o2i3u4",
+12-20 16:16:26.987 16392 16517 I flutter :   "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MDMxMTMxMTMxMTEiLCJleHAiOjE3MzQ2MDQyODh9.KxLak22l3Qg5xVBJowXPL3tDKTWjspgL1uYEXbTK4vs",
+12-20 16:16:26.987 16392 16517 I flutter :   "user": {
+12-20 16:16:26.987 16392 16517 I flutter :     "name": "VIVO SKIP NML",
+12-20 16:16:26.987 16392 16517 I flutter :     "email": "vivo@skip.com",
+12-20 16:16:26.987 16392 16517 I flutter :     "profile_picture": "https://d1t0u2ql2wp61b.cloudfront.net/mmp_documents/id_cards/scaled_d3lcdmk-e4b8318f-d32d-409c-8913-e49cfb525344.png",
+12-20 16:16:26.987 16392 16517 I flutter :     "phone_number": "603113113111",
+12-20 16:16:26.987 16392 16517 I flutter :     "secondary_phone_number": null
+12-20 16:16:26.987 16392 16517 I flutter :   }
+12-20 16:16:26.987 16392 16517 I flutter : }[0m
+12-20 16:16:26.987 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:27.376  2737  2737 I logd    : start watching /data/system/packages.list ...
+12-20 16:16:27.376  2737  2737 I logd    : ReadPackageList, total packages: 186
+12-20 16:16:27.523 31924 31924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+12-20 16:16:27.530 24684 24773 D BtGatt.ScanManager: uid 10118 isForeground true scanMode -1
+12-20 16:16:27.530 24684 24773 D BtGatt.ScanManager: uid 10118 isForeground true scanMode -1
+12-20 16:16:27.964 16392 16518 D EGL_emulation: app_time_stats: avg=87.42ms min=2.35ms max=125.57ms count=12
+12-20 16:16:29.012 16392 16518 D EGL_emulation: app_time_stats: avg=69.85ms min=10.86ms max=118.31ms count=15
+12-20 16:16:30.061 16392 16518 D EGL_emulation: app_time_stats: avg=87.41ms min=8.84ms max=117.75ms count=12
+12-20 16:16:31.113 16392 16518 D EGL_emulation: app_time_stats: avg=70.06ms min=10.52ms max=117.82ms count=15
+12-20 16:16:31.396   368 16636 I resolv  : GetAddrInfoHandler::run: {101 786533 101 983141 10118 0}
+12-20 16:16:31.398   368 16637 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:31.398   368 16637 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+12-20 16:16:31.398   368 16638 I resolv  : res_nmkquery: (QUERY, IN, A)
+12-20 16:16:31.400   368 16638 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+12-20 16:16:31.411   368 16637 I resolv  : res_nsend: used send_dg 65 terrno: 0
+12-20 16:16:31.412   368 16637 I resolv  : doQuery: rcode=0, ancount=1, return value=65
+12-20 16:16:31.412   368 16638 I resolv  : res_nsend: used send_dg 53 terrno: 0
+12-20 16:16:31.412   368 16638 I resolv  : doQuery: rcode=0, ancount=1, return value=53
+12-20 16:16:31.418 31924 16634 D TrafficStats: tagSocket(129) with statsTag=0x20003300, statsUid=10186
+12-20 16:16:31.595 16392 16517 I flutter : headerPost= {}
+12-20 16:16:31.596 16392 16517 I flutter : Network log [33m[Request] ->[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mUri: https://mmpv2vuat.digitalmta.com/user/validate-passcode[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mMethod: POST[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mResponse Type: ResponseType.json[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mFollow Redirects: true[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mConnection Timeout: 0:01:00.000000[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mSend Timeout: 0:01:00.000000[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mReceive Timeout: 0:01:00.000000[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mReceive Data When Status Error: true[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mExtra: {}[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33mHeaders:[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33m	content-type: application/json[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [33m[Json] Request Body:
+12-20 16:16:31.597 16392 16517 I flutter : {
+12-20 16:16:31.597 16392 16517 I flutter :   "passcode": "123456"
+12-20 16:16:31.597 16392 16517 I flutter : }[0m
+12-20 16:16:31.597 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:31.614   468   468 D AudioAnalytics: gc(1700, 2000): log size:1700 item map size:15, item map items:1700
+12-20 16:16:31.637   368 16639 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:31.644   368 16640 I resolv  : res_nmkquery: (QUERY, IN, A)
+12-20 16:16:31.644   368 16640 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb40000755413e9f0
+12-20 16:16:31.644   368 16640 I resolv  : doQuery: rcode=0, ancount=3, return value=138
+12-20 16:16:31.662   368 16641 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:31.662   368 16642 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:31.662   368 16642 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007564136c10
+12-20 16:16:31.662   368 16642 I resolv  : doQuery: rcode=0, ancount=1, return value=188
+12-20 16:16:31.662   368 16643 I resolv  : GetAddrInfoHandler::run: {101 101 101 983141 10186 0}
+12-20 16:16:31.662   368 16644 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+12-20 16:16:31.662   368 16644 I resolv  : resolv_cache_lookup: FOUND IN CACHE entry=0xb400007564136c10
+12-20 16:16:31.662   368 16644 I resolv  : doQuery: rcode=0, ancount=1, return value=188
+12-20 16:16:31.747 31924 16238 W FA-SVC  : Config not found. Using empty config. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.757 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.759 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.761 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.762 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.762 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.763 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.763 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.763 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.764 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.764 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.764 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.765 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.765 31924 16238 W FA-SVC  : Did not find measurement config or missing version info. appId: ai.vanillatech.mmp.uat
+12-20 16:16:31.773 31924 16634 D TrafficStats: tagSocket(129) with statsTag=0x20003300, statsUid=10186
+12-20 16:16:32.032   760   760 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+12-20 16:16:32.186 16392 16518 D EGL_emulation: app_time_stats: avg=89.31ms min=15.05ms max=121.09ms count=12
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32m[Response] ->[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32mUri: https://mmpv2vuat.digitalmta.com/user/validate-passcode[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32mRequest Method: POST[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32mStatus Code: 200[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32mHeaders:[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32m	connection: keep-alive[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32m	content-type: application/json[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32m	date: Wed, 20 Dec 2023 10:31:33 GMT[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32m	server: uvicorn[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32m	content-length: 51[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [32mResponse Body:
+12-20 16:16:32.307 16392 16517 I flutter : {
+12-20 16:16:32.307 16392 16517 I flutter :   "msg": "Passcode has been validated successfully."
+12-20 16:16:32.307 16392 16517 I flutter : }[0m
+12-20 16:16:32.307 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:32.510   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33m[Request] ->[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mUri: https://mmpv2vuat.digitalmta.com/user-card/card-data[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mMethod: GET[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mResponse Type: ResponseType.json[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mFollow Redirects: true[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mConnection Timeout: 0:01:00.000000[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mSend Timeout: 0:01:00.000000[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mReceive Timeout: 0:01:00.000000[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mReceive Data When Status Error: true[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mExtra: {}[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33mHeaders:[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [33m Request Body:
+12-20 16:16:32.543 16392 16517 I flutter : null[0m
+12-20 16:16:32.543 16392 16517 I flutter : Network log [37m[0m
+12-20 16:16:33.234 16392 16518 D EGL_emulation: app_time_stats: avg=130.70ms min=44.54ms max=204.12ms count=8
+12-20 16:16:33.701   765  1009 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+12-20 16:16:33.705   765  1009 D ControlsListingControllerImpl: Unsubscribing callback
+12-20 16:16:33.810   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:34.046   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:34.046   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:34.046   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:34.046   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:34.046   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:34.263 16392 16518 D EGL_emulation: app_time_stats: avg=114.24ms min=98.75ms max=121.68ms count=9
+12-20 16:16:35.212   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:35.212   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:35.313 16392 16518 D EGL_emulation: app_time_stats: avg=116.61ms min=114.91ms max=118.27ms count=9
+12-20 16:16:36.362 16392 16518 D EGL_emulation: app_time_stats: avg=116.52ms min=103.99ms max=128.97ms count=9
+12-20 16:16:36.639 31924 31924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.firebase.dynamiclinks.service.START pkg=com.google.android.gms }
+12-20 16:16:36.640   576  1835 I ActivityManager: Killing 14911:com.android.imsserviceentitlement/u0a111 (adj 985): empty #17
+12-20 16:16:36.643   576   608 I libprocessgroup: Successfully killed process cgroup uid 10111 pid 14911 in 1ms
+12-20 16:16:36.646   370   370 I Zygote  : Process 14911 exited due to signal 9 (Killed)
+12-20 16:16:37.194   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:37.411 16392 16518 D EGL_emulation: app_time_stats: avg=116.54ms min=113.98ms max=118.15ms count=9
+12-20 16:16:38.462 16392 16518 D EGL_emulation: app_time_stats: avg=116.67ms min=115.18ms max=119.14ms count=9
+12-20 16:16:39.512 16392 16518 D EGL_emulation: app_time_stats: avg=116.65ms min=115.34ms max=117.71ms count=9
+12-20 16:16:40.225   760   760 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+12-20 16:16:40.548 16392 16518 D EGL_emulation: app_time_stats: avg=115.15ms min=103.27ms max=119.58ms count=9
+12-20 16:16:41.599 16392 16518 D EGL_emulation: app_time_stats: avg=116.70ms min=101.87ms max=130.96ms count=9
+12-20 16:16:42.312   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:42.313   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:16:42.647 16392 16518 D EGL_emulation: app_time_stats: avg=116.43ms min=113.91ms max=119.54ms count=9
+12-20 16:16:43.679 16392 16518 D EGL_emulation: app_time_stats: avg=114.66ms min=102.32ms max=118.16ms count=9
+12-20 16:16:44.728 16392 16518 D EGL_emulation: app_time_stats: avg=116.61ms min=113.64ms max=118.87ms count=9
+12-20 16:16:45.780 16392 16518 D EGL_emulation: app_time_stats: avg=116.84ms min=113.64ms max=119.93ms count=9
+12-20 16:16:46.828 16392 16518 D EGL_emulation: app_time_stats: avg=116.45ms min=114.79ms max=119.01ms count=9
+12-20 16:16:47.879 16392 16518 D EGL_emulation: app_time_stats: avg=116.68ms min=114.69ms max=118.69ms count=9
+12-20 16:16:48.160   760   760 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+12-20 16:16:48.930 16392 16518 D EGL_emulation: app_time_stats: avg=116.76ms min=114.88ms max=119.71ms count=9
+12-20 16:16:49.962 16392 16518 D EGL_emulation: app_time_stats: avg=114.72ms min=102.70ms max=117.84ms count=9
+12-20 16:16:51.012 16392 16518 D EGL_emulation: app_time_stats: avg=116.61ms min=115.12ms max=118.84ms count=9
+12-20 16:16:52.063 16392 16518 D EGL_emulation: app_time_stats: avg=116.81ms min=115.22ms max=118.40ms count=9
+12-20 16:16:53.098 16392 16518 D EGL_emulation: app_time_stats: avg=115.03ms min=102.73ms max=118.84ms count=9
+12-20 16:16:54.129 16392 16518 D EGL_emulation: app_time_stats: avg=114.56ms min=102.52ms max=117.62ms count=9
+12-20 16:16:55.181 16392 16518 D EGL_emulation: app_time_stats: avg=116.79ms min=115.15ms max=117.85ms count=9
+12-20 16:16:56.094   760   760 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+12-20 16:16:56.229 16392 16518 D EGL_emulation: app_time_stats: avg=116.44ms min=114.95ms max=118.27ms count=9
+12-20 16:16:57.264 16392 16518 D EGL_emulation: app_time_stats: avg=114.98ms min=103.01ms max=119.83ms count=9
+12-20 16:16:58.280 16392 16518 D EGL_emulation: app_time_stats: avg=112.90ms min=101.72ms max=117.59ms count=9
+12-20 16:16:59.297 16392 16518 D EGL_emulation: app_time_stats: avg=113.06ms min=102.73ms max=117.36ms count=9
+12-20 16:16:59.503   765  1001 D EGL_emulation: app_time_stats: avg=4075.42ms min=6.14ms max=36559.03ms count=9
+12-20 16:17:00.025  1570  1735 I AiAiEcho: Predicting[0]: 
+12-20 16:17:00.025  1570  1735 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata: 
+12-20 16:17:00.029  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0
+12-20 16:17:00.029  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0
+12-20 16:17:00.029  1570  1735 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface media_data_manager with targets# 0
+12-20 16:17:00.042  1082  1082 E BcSmartspaceCard: No tap action can be set up
+12-20 16:17:00.349 16392 16518 D EGL_emulation: app_time_stats: avg=116.81ms min=115.36ms max=120.25ms count=9
+12-20 16:17:01.295   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:17:01.397 16392 16518 D EGL_emulation: app_time_stats: avg=116.45ms min=114.38ms max=117.74ms count=9
+12-20 16:17:02.431 16392 16518 D EGL_emulation: app_time_stats: avg=114.92ms min=102.61ms max=129.75ms count=9
+12-20 16:17:03.145   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:17:03.145   418   514 W TransactionTracing: Could not find layer id -1
+12-20 16:17:03.480 16392 16518 D EGL_emulation: app_time_stats: avg=116.53ms min=114.62ms max=118.44ms count=9
+12-20 16:17:04.287   760   760 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+12-20 16:17:04.497 16392 16518 D EGL_emulation: app_time_stats: avg=113.00ms min=101.76ms max=118.86ms count=9
+12-20 16:17:05.547 16392 16518 D EGL_emulation: app_time_stats: avg=116.66ms min=114.59ms max=118.35ms count=9
+12-20 16:17:06.595 16392 16518 D EGL_emulation: app_time_stats: avg=116.48ms min=108.24ms max=123.48ms count=9
+12-20 16:17:08.021   576   576 W Looper  : Slow delivery took 840ms main h=android.os.Handler c=com.android.internal.os.BinderCallsStats$1@915b64 m=0
+12-20 16:17:08.035   576   677 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+12-20 16:17:08.049 16392 16517 I flutter : ══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+12-20 16:17:08.049 16392 16517 I flutter : The following assertion was thrown running a test:
+12-20 16:17:08.049 16392 16517 I flutter : pumpAndSettle timed out
+12-20 16:17:08.049 16392 16517 I flutter : 
+12-20 16:17:08.049 16392 16517 I flutter : When the exception was thrown, this was the stack:
+12-20 16:17:08.049 16392 16517 I flutter : #0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:694:11)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : #1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:117:7)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : #2      PatrolTester.pumpAndSettle (package:patrol_finders/src/custom_finders/patrol_tester.dart:167:5)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : #3      LoginCommon.loginTestWithOptionalDeviceBinding (file:///Users/anilthapa/Flutter%20Projects/mmp2.0/integration_test/login/common/login_common.dart:74:5)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : #4      RateAlertTestCase.straightFlow.<anonymous closure> (file:///Users/anilthapa/Flutter%20Projects/mmp2.0/integration_test/rate_alert/test_cases/rate_alert_test_case.dart:29:7)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : #5      patrolTest.<anonymous closure> (package:patrol/src/common.dart:120:7)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : #6      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:168:15)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : #7      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1013:5)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : #8      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:804:12)
+12-20 16:17:08.049 16392 16517 I flutter : <asynchronous suspension>
+12-20 16:17:08.049 16392 16517 I flutter : 
+12-20 16:17:08.049 16392 16517 I flutter : The test description was:
+12-20 16:17:08.049 16392 16517 I flutter :   RA_01: Add new rate alert
+12-20 16:17:08.049 16392 16517 I flutter : ═══════════════════════════════════════════════════════════���════════════════════════════════════════
+12-20 16:17:08.052 16392 16517 I flutter : 00:57 +2: temp_test RA_01: Add new rate alert [E]
+12-20 16:17:08.052 16392 16517 I flutter :   Test failed. See exception logs above.
+12-20 16:17:08.052 16392 16517 I flutter :   The test description was: RA_01: Add new rate alert
+12-20 16:17:08.053 16392 16517 I flutter :   
+12-20 16:17:08.064 16392 16517 I flutter : PatrolBinding: tearDown(): count: 2, results: {temp_test RA_01: Add new rate alert: {"methodName":"RA_01: Add new rate alert","details":"══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════\nThe following assertion was thrown running a test:\npumpAndSettle timed out\n\nWhen the exception was thrown, this was the stack:\n#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:694:11)\n<asynchronous suspension>\n#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:117:7)\n<asynchronous suspension>\n#2      PatrolTester.pumpAndSettle (package:patrol_finders/src/custom_finders/patrol_tester.dart:167:5)\n<asynchronous suspension>\n#3      LoginCommon.loginTestWithOptionalDeviceBinding (file:///Users/anilthapa/Flutter%20Projects/mmp2.0/integration_test/login/common/login_common.dart:74:5)\n<asynchronous suspension>\n#4      RateAlertTestCase.straightFlow.<anonymous closure>
+12-20 16:17:08.064 16392 16517 I flutter : PatrolBinding: finished test temp_test RA_01: Add new rate alert. Will report its status back to the native side
+12-20 16:17:08.065 16392 16517 I flutter : PatrolBinding: tearDown(): test "RA_01: Add new rate alert" in group "temp_test RA_01: Add new rate alert", passed: false
+12-20 16:17:08.066 16392 16517 I flutter : PatrolAppService.markDartTestAsCompleted(): temp_test RA_01: Add new rate alert
+12-20 16:17:08.068 16392 16517 I flutter : 2023-12-20T16:16:11.204035  0:00:56.863788 POST    [200] /runDartTest
+12-20 16:17:08.070 16392 16517 I flutter : 00:57 +2 -1: temp_test (tearDownAll)
+12-20 16:17:08.082 15518 15518 I binder  : 15500:15518 ioctl c0306201 7bad44aac0 returned -14
+12-20 16:17:08.082 15519 15519 I binder  : 15500:15519 ioctl c0306201 7bac34cac0 returned -14
+12-20 16:17:08.082 15522 15522 I binder  : 15500:15522 ioctl c0306201 7bab24eac0 returned -14
+12-20 16:17:08.103   219   219 I lowmemorykiller: Kill 'com.android.chrome' (15500), uid 10121, oom_score_adj 985 to free 48092kB rss, 0kB swap; reason: device is in direct reclaim and thrashing (13697%)
+12-20 16:17:08.112   370   370 I Zygote  : Process 15500 exited due to signal 9 (Killed)
+12-20 16:17:08.214   576   677 I ActivityManager: Process com.android.chrome (pid 15500) has died: cch+85 CEM 
+12-20 16:17:08.218   576   608 I libprocessgroup: Successfully killed process cgroup uid 10121 pid 15500 in 0ms
+12-20 16:17:08.224   576   677 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService in 1000ms for connection
+12-20 16:17:08.232   576   576 W Looper  : Drained
+12-20 16:17:08.247 16392 16517 I flutter : 00:57 +3 -1: Some tests failed.
+12-20 16:17:08.266   219   219 I lowmemorykiller: Kill 'com.google.process.gapps' (15586), uid 10118, oom_score_adj 975 to free 46288kB rss, 0kB swap; reason: low watermark is breached and thrashing (1201%)
+12-20 16:17:08.268   576  1835 I ActivityManager: Process com.google.process.gapps (pid 15586) has died: cch+75 CEM 
+12-20 16:17:08.276   370   370 I Zygote  : Process 15586 exited due to signal 9 (Killed)
+12-20 16:17:08.326   576   608 I libprocessgroup: Successfully killed process cgroup uid 10118 pid 15586 in 10ms
+12-20 16:17:08.329   576   692 D CompatibilityChangeReporter: Compat change id reported: 218533173; UID 10121; state: ENABLED
+12-20 16:17:08.367   227   227 I logd    : logdr: UID=2000 GID=2000 PID=16649 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
